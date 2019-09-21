@@ -17,7 +17,7 @@ class SessionsController < ApplicationController
         notes: notes
       }
     else
-      render json: { error: "Sign in error" }
+      render json: { error: 'Sign In Error: Please try again' }
     end
 
   end
